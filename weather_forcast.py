@@ -15,7 +15,6 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Get the API key from the .env file
 load_dotenv('.env', override=True)
 api_key = os.getenv('WEATHER_API_KEY')
-map_api_key = os.getenv('MAP_API_KEY')
 gemini_key = os.getenv('GEMINI_API_KEY')
 
 
